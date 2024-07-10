@@ -248,8 +248,8 @@ footer {
     margin: 25px 0;
     padding: 25px;
     color: #1e1e24;
-    font-size: 3rem;
-    transition: all 0.6s;
+    font-size: 4rem;
+    transition: all 1.5s;
 }
 .projects {
     width: 100%;
@@ -279,93 +279,4 @@ footer {
     padding: 25px;
     color: #f7f7f2;
     font-size: 2rem;
-}
-
-/* Media Queries for Responsive Design */
-@media screen and (max-width: 1200px) {
-    .navmenu {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    .nav-toggle {
-        display: none;
-    }
-
-    .nav-toggle:checked + nav .navmenu {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .navmenu li {
-        margin-bottom: 10px;
-    }
-    .socials-icons {
-        display: none;
-    }
-
-    .home {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    .home-img {
-        display: none;
-    }
-    .home-text {
-        width: 100%;
-        padding: 0;
-    }
-
-    .about {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    .about-img {
-        display: none;
-    }
-    .about-text {
-        width: 100%;
-        padding: 0;
-    }
-
-    .skills {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    .skills-img {
-        width: 80%;
-        height: auto;
-        padding-left: 0;
-    }
-    .skills-text {
-        width: 100%;
-        padding: 0;
-    }
-
-    .projects {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    .projects-img {
-        width: 80%;
-        height: auto;
-        padding-right: 0;
-    }
-    .projects-text {
-        width: 100%;
-        padding: 0;
-    }
 }
