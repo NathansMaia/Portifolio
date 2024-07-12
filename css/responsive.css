@@ -1,38 +1,12 @@
-/* Media Queries for Responsive Design */
-@media screen and (max-width: 960px) {
-    .navmenu {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    .nav-toggle {
-        display: none;
-    }
-
-    .nav-toggle:checked + nav .navmenu {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .navmenu li {
-        margin-bottom: 10px;
-    }
-    .socials-icons {
-        display: none;
-    }
-    .scroll-btn{
+@media screen and (max-width: 780px) {
+    header {
         display: none;
     }
     .home {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 2rem;
     }
     .home-img {
         display: none;
@@ -40,49 +14,59 @@
     .home-text {
         width: 100%;
         padding: 0;
+        margin-top: 100px; 
     }
-
-    .about {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
+    .socials-icons {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 1rem; 
     }
-    .about-img {
+    .scroll-btn {
         display: none;
     }
-    .about-text {
-        width: 100%;
-        padding: 0;
-    }
-
-    .skills {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    .skills-img {
-        display: none;
-    }
-    .skills-text {
-        width: 100%;
-        padding: 0;
-    }
-
+    .about,
+    .skills,
     .projects {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-        text-decoration: none;
+        padding: 2rem;
+        text-align: center; 
     }
-    .projects-img {
+    .about-img img,
+    .skills-img img,
+    .projects-img img {
         display: none;
     }
-    .projects-text {
-        width: 100%;
-        padding: 0;
+    .footer {
+        padding: 2rem;
+        text-align: center;
+    }
+    .skills,
+    .projects {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column;
+    }
+    .skills .skills-text,
+    .projects .projects-text {
+        padding: 2rem;
+    }
+    .about {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column;
+    }
+    .socials-icons-projects {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 1rem; 
     }
 }
+
+
+
+
+
 
